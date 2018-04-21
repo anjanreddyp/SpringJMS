@@ -20,7 +20,6 @@ public class SpringJmsConsumer {
 	
 	public Destination getDestination() {
 		return destination;
-		
 	}
 
 	public void setDestination(Destination destination) {
