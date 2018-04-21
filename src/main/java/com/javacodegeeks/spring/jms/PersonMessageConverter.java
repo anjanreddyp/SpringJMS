@@ -23,6 +23,7 @@ public class PersonMessageConverter implements MessageConverter{
 			MessageConversionException {
 		MapMessage mapMessage = (MapMessage) message;
 		Person person = new Person(mapMessage.getString("name"), mapMessage.getInt("age"));
+		
 		return person;
 	}
 
